@@ -93,16 +93,25 @@ h1{
     color:white ;
     text-align: center;
 }
+h3{
+    text-align: center;
+}
 p{
     color: white;
     text-align: center;
     font-size: small;
     padding: 18px;
     margin-bottom: -9px;
-    padding-left: 65px;
-    padding-right: 65px;
-}
 
+}
+span{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.wave{
+    color: grey;
+}
 
 
 .conteiner2{
@@ -113,24 +122,24 @@ p{
     align-items: center;
 }
 .section1{
-    background-color:cornflowerblue;
+   /* background-color:cornflowerblue;*/
     flex-basis: 50%;
-    height: 250px;  
+    min-height: 250px;  
     border: 1px;
-    border-style: dashed;  
+   /* border-style: dashed;  */
 }
 .section2{
-    background-color: pink;
+   /* background-color: pink;*/
     flex-basis: 20%;
-    height: 250px; 
+    min-height: 250px; 
     border: 1px;
-    border-style: dashed;   
+  /*  border-style: dashed;  */ 
 }
 
 
 .conteiner3{
     display: flex;
-    background-color: grey;
+    background-color: rgb(247, 245, 245);
     min-height: 300px;
     justify-content: center;
     align-items: center;
@@ -147,18 +156,18 @@ p{
 
 .conteiner5{
     display: flex;
-    background-color: grey;
+    background-color: rgb(247, 245, 245);
     min-height: 400px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 .section3{
-    background-color: green;
+   /* background-color: green;*/
     flex-basis: 70%;
-    height: 300px;
+    min-height: 300px;
     border: 1px;
-    border-style: dashed;
+   /* border-style: dashed;*/
 }
 
 
@@ -174,21 +183,21 @@ p{
 .section4{
    /* background-color: pink;*/
     flex-basis: 30%;
-    height: 270px;
+    min-height: 270px;
     border: 1px;
    /* border-style: dashed;*/
 }
 .section5{
    /* background-color:cornflowerblue;*/
     flex-basis: 10%;
-    height: 270px; 
+   min-height: 270px; 
     border: 1px;
    /* border-style: dashed;*/
 }
 .section6{
    /* background-color:cornflowerblue;*/
     flex-basis: 10%;
-    height: 270px; 
+    min-height: 270px; 
     border: 1px;
    /* border-style: dashed;*/
 }
@@ -200,19 +209,25 @@ p{
 .section7{
    /* background-color:cornflowerblue;*/
     flex-basis: 10%;
-    height: 270px; 
+    min-height: 270px; 
     border: 1px;
   /*  border-style: dashed;*/
 }
 .section8{
    /* background-color:cornflowerblue;*/
     flex-basis: 10%;
-    height: 270px; 
+    min-height: 270px; 
     border: 1px;
    /* border-style: dashed;*/
 }
 hr{
    margin: 0px;
+}
+#scaricaxmac{
+    margin-left: 415px;
+    background-color: #535efce5;
+    color: white;
+    margin-bottom: 50px;
 }
 footer{
     background-color:rgb(1, 22, 39);
